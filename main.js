@@ -74,7 +74,7 @@ function moveToggle() {
         equal.style.backgroundColor = "#D03F2F"
         clear.style.boxShadow = "0px -4px 0px 0px #414E73 inset"
         equal.style.boxShadow = "0px -4px 0px 0px #93261A inset"
-
+        remove.style.boxShadow = " 0px -4px 0px 0px #414E73 inset"
 
     } else if (position === 1) {
         
