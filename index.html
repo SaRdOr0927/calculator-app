@@ -3,73 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>single-page-design-portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <title>calculator-app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./OwlCarousel2-develop/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-develop/dist/assets/owl.carousel.min.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <link rel="shortcut icon" href="./IMG/Ikonlogo.svg" type="image/x-icon">
 </head>
 <body>
-    <div class="calc-wrapper">
-		<div class="wrapper-headr">
-            <h4 class="wrapper-headr_h4">calc</h4>
-            <div class="button-flex">
-                <p class="button-flex_p">THEME</p>
-                
-                <div class="toggle-wrapper">
-                    <div class="numbers">
-                        <span class="numbers-w">1</span>
-                        <span class="numbers-t">2</span>
-                        <span class="numbers-s">3</span>
-                    </div>
-                    <div class="toggle-container" onclick="moveToggle()">
-                        <div class="toggle-ball" id="toggleBall"></div>
-                    </div>
+    
+    <div class="container">
+        <div class="site-hedr">
+            <img src="./IMG/Ikonlogo.svg" alt="" class="Ikonlogo">
+            <a href="!#"> <button class="site-hedr__btn">Free Consultation</button></a>
+        </div>
+        <div class="shop-about">
+            <h1 class="about-design">Design solutions made easy</h1>
+            <p class="about-design__text">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+        </div>
+        <div class="phote-menu">
+            <div class="phote-menu1">
+                <img src="./IMG/rasm-1.svg" alt="">
+            </div>
+            <div class="phote-menu2">
+                <div class="phote-menu2__1">
+                    <img src="./IMG/rasm-2.svg" alt="">
+                    <img src="./IMG/rasm3.svg" alt="">
                 </div>
+                <img src="./IMG/rasm-4.svg" alt="" class="rasmWidth">
+            </div>
+            <div class="phote-menu3">
+                <img src="./IMG/rasm-5.svg" alt="" class="rasmWidth">
+                <img src="./IMG/rasm-6.svg" alt="" class="rasmWidth">
             </div>
         </div>
-        <div class="wrapper-input">
-            <thead>
-				<tr>
-					<th>
-						<input disabled type="text"  class="wrapper-input__th">
-					</th>
-				</tr>
-			</thead>
-        </div>
-
-        <div class="calculator">
-            
-            <div class="buttons">
-                <button class="number-button" id="number7">7</button>
-                <button class="number-button" id="number8">8</button>
-                <button class="number-button" id="number9">9</button>
-                <button class="del c" id="sign">DEL</button>
-                <button class="number-button" id="number4">4</button>
-                <button class="number-button" id="number5">5</button>
-                <button class="number-button" id="number6">6</button>
-                <button class="number-button" id="numberPlus">+</button>
-                <button class="number-button" id="number1">1</button>
-                <button class="number-button" id="number2">2</button>
-                <button class="number-button" id="number3">3</button>
-                <button class="number-button" id="numberMinus">–</button>
-                <button class="dot" id="numberNuqta">.</button>
-                <button class="number-button " id="number0">0</button>
-                <button class="number-button" id="numberBolish">÷</button>
-                <button class="number-button" id="numberKopaytirish">×</button>
-                <button class="reset r" id="sign">RESET</button>
-                <button class="equal " id="sign">=</button>
+        <div class="next-project">
+            <img src="./IMG/image-removebg-preview(563) (1).svg" alt="" class="preview">
+            <div class="next-project-about">
+                <h1 class="next-project-about__title">I’m Amy, and I’d love to work on your next project</h1>
+                <p class="next-project-about__text">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
+                <button class="next-project-about__btn">Free Consultation</button>
             </div>
         </div>
-        
-	</div>
+
+    </div>
+    <div class="carousel">
+        <h1 class="carousel-title">My Work</h1>
+        <div class="carousel-content owl-carousel">
+            <img src="./IMG/Bitmap.png" alt="" class="carousel-img">
+            <img src="./IMG/Bitmap (1).png" alt="" class="carousel-img">
+            <img src="./IMG/Bitmap (2).png" alt="" class="carousel-img">
+            <img src="./IMG/Bitmap (3).png" alt="" class="carousel-img">
+            <img src="./IMG/Bitmap (4).png" alt="" class="carousel-img">
+        </div>
+    </div>
+    <div class="container">
+        <div class="book-call">
+            <div class="book-call__about">
+                <h1 class="book-call__title">Book a call with me</h1>
+                <p class="book-call__text">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+            </div>
+            <a href="!#"> <button class="book-call__btn">Free Consultation</button></a>
+        </div>
+        <div class="site-hedr">
+            <img src="./IMG/Ikonlogo.svg" alt="" class="Ikonlogo">
+            <a href="!#"> <button class="site-hedr__btn">Free Consultation</button></a>
+        </div>
+    </div>
 
 
 
 
 
 
+    <script src="./OwlCarousel2-develop/dist/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    <script src="./OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>
